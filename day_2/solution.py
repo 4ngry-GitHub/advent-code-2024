@@ -28,6 +28,6 @@ def is_safe(row: pd.Series) -> bool:
 
 
 df["is_safe"] = df.apply(is_safe, axis=1)
-safe_report_count: np.int64 = df["is_safe"].sum()  # 148
+safe_report_count: np.int64 = df["is_safe"].sum()  # 559
 
 print(f"The puzzle answer is: {safe_report_count}")
