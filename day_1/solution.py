@@ -12,4 +12,4 @@ with open(f"{base_dir}/input_data.txt", "r") as file:
 
 
 total_distance: np.int64 = np.sum(np.abs(col_left - col_right))  # 2086478
-print(f"Puzzle answer is: {total_distance}")
+print(f"The puzzle answer is: {total_distance}")
